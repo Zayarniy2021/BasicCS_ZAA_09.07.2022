@@ -27,7 +27,7 @@ public partial class Form1 : Form
     {
  
         DrawCircle(g, x,y,r);
-        System.Threading.Thread.Sleep(10);
+        //System.Threading.Thread.Sleep(10);
         if (r>10)
         {
             RecCircle(g,x-r/2,y,r/2);
